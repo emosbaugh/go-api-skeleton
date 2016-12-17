@@ -1,0 +1,5 @@
+FROM alpine:3.4
+
+EXPOSE 8080
+
+CMD ["/bin/gin-example api"]
